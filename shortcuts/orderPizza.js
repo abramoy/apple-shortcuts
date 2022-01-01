@@ -48,10 +48,12 @@ function login() {
 }
 
 function delivery() {
+    document.querySelector("input[value=collection]").click();
     document.getElementsByClassName("form-buttons__button")[0].click();
 }
 
 function payment() {
+    document.querySelector('input[value="14555"]').click();
     document.getElementsByClassName("form-buttons__button")[0].click();
 }
 
